@@ -101,3 +101,21 @@ print(sorted_letters)  # -> ['a', 'b', 'c']
 ```
 
 Which argument controls the sort order in `sorted()`?
+
+---
+## 2026-10-29 11:30, in .
+
+**Me:** how to do a loop in python
+
+**Tutor:**
+
+A loop repeats a block of code while a condition is true.
+
+```python
+# Loop over a list of fake products
+products = ["alpha", "beta", "gamma"]
+
+# TODO: write a loop that prints each product
+```
+
+What built-in function starts the loop over a list?
