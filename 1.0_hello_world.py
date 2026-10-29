@@ -24,14 +24,12 @@ DELIVERABLE
 
 # 1. In: my name as a string
 # 2. Process: printing my name
-# 3. Out: printing my name 5 times
-# 4. My message, and why: just printed my name 5 times
+# 3. Out: printing my name 3 times
+# 4. My message, and why: just printed my name 3 times
 
 
 # Your code below
-print ("Manel")
-print ("1. Manel")
-print ("2. Manel")
-print ("3. Manel")
-print ("4. Manel")
-print ("5. Manel")
+for i in range (1,4) :
+    print (f"{i}. Manel")
+
+
