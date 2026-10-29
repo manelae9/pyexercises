@@ -22,10 +22,16 @@ DELIVERABLE
     This file, with your comments and your code.
 """
 
-# 1. In:
-# 2. Process:
-# 3. Out:
-# 4. My message, and why:
+# 1. In: my name as a string
+# 2. Process: printing my name
+# 3. Out: printing my name 5 times
+# 4. My message, and why: just printed my name 5 times
 
 
 # Your code below
+print ("Manel")
+print ("1. Manel")
+print ("2. Manel")
+print ("3. Manel")
+print ("4. Manel")
+print ("5. Manel")
