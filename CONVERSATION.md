@@ -195,3 +195,20 @@ print(7 // 2)  # what will this print?
 ```
 
 Which built-in function returns the integer part of a division?
+
+---
+## 2026-10-30 10:48, in .
+
+**Me:** how to remove an item from a list in python
+
+**Tutor:**
+
+Removing an item from a list by its value.
+
+```python
+def remove_item(lst, value):
+    # TODO: remove the first occurrence of `value` from `lst`
+    pass
+```
+
+What method removes the first occurrence of a value in a list?

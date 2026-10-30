@@ -26,35 +26,31 @@ DELIVERABLE
     This file, with your comments and your code.
 """
 
-# 1. In:
-# 2. Process:
-# 3. Out:
-# 4. What my list is about, and what I computed from it:
+# 1. In: a list of monthly marketing campaign budgets in euros
+# 2. Process: the program display the list, selects one budget, sort the budgets and calculates their average
+# 3. Out: the original list, one selected budget, the sorted list and the average budget
+# 4. What my list is about, and what I computed from it: it contains the bidgets of eight marketing campaigns, i calculated the average budget to comprae campaign sepnding and understand how much is allocated to each campaign on average
 
 
 # Your code below
-number_1 = 4
-number_2 = 5
-number_3 = 6
-number_4 = 7
-number_5 = 8
-number_6 = 9
 
-print (number_1)
-print (number_2)
-print (number_3)
-print (number_4)
-print (number_5)
-print (number_6)
+budgets = [1200, 800, 1500, 1080, 2000, 720, 1300, 1500, 2740]
 
-list = [4,5,6,7,8,9,10,11,2,1]
+# display the whole list
+print("Marketing campaign budgets: ", budgets)
 
-print(list)
-print (list [4])
+# display one item
+print("The sixth campaign budget is: ", budgets[5])
 
-sorted_list = list.sort()
-print("Sorted list",list)
+# display the sorted list
+sorted_budgets = sorted(budgets)
+print("Sorted budgets",sorted_budgets)
 
-list.pop()
-print("List after removing last item", list)
+# calculate the average
+average = sum(budgets) / len(budgets)
+print("The average campaign budget is:", average)
+
+# remove last item
+budgets.pop()
+print("List after removing last item: ", budgets)
 
