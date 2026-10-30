@@ -212,3 +212,27 @@ def remove_item(lst, value):
 ```
 
 What method removes the first occurrence of a value in a list?
+
+---
+## 2026-10-30 11:06, in .
+
+**Me:** how to do a dictionnary in python
+
+**Tutor:**
+
+A dictionary stores pairs of keys and values.
+
+```python
+# Create an empty dictionary
+my_dict = {}
+
+# Add a key-value pair
+my_dict["product"] = 19.99
+
+# Access a value by its key
+price = my_dict["product"]
+
+# TODO: add another key "quantity" with value 3
+```
+
+What function do you use to add or update a key-value pair in a dictionary?

@@ -23,37 +23,46 @@ DELIVERABLE
     This file, with your comments and your code.
 """
 
-# 1. In:
-# 2. Process:
-# 3. Out:
-# 4. My object, my five fields, and why those:
+# 1. In: information about a person's bank account
+# 2. Process: the program asks the user five questions, stores the answers in a dictionary, reads and changes information, removes one field and displays the remaining fields
+# 3. Out: tthe bank account information and its updated values
+# 4. My object, my five fields, and why those: i chose the owern's name, balance, bank name, currency and account type because these are useful to decribe an account
 
 
 # Your code below
 
-name = input("Enter your name: ")
-age = input ("Enter your age: ")
-city = input ("Enter your city: ")
-country = input ("Enter your country")
-
-print("My name is: ", name)
-print("My age is: ", age)
-print("My city is: ", city)
-print("My country is: ", country)
+owner = input("Enter your name: ")
+balance = input ("Enter your account balance: ")
+bank = input ("Enter your bank name: ")
+currency = input ("Enter your currency: ")
+account_type = input ("Enter your account type: ")
 
 
-person = {
-    "name" : name,
-    "age" : age,
-    "city" : city,
-    "country" : country,
+account = {
+    "owner" : owner,
+    "balance" : balance,
+    "bank" : bank,
+    "currency" : currency,
+    "account_type" : account_type,
 }
 
-print("The person's name is: ", person ["name"])
-print("The person's age is: ", person ["age"])
-print("The person's city is: ", person ["city"])
-print("The person's country is: ", person ["country"])
+# read the information
+print("The account owner's name is: ", account ["owner"])
+print("The account balance is: ", account ["balance"])
+print("The bank is: ", account ["bank"])
+print("The currency is: ", account ["currency"])
+print("The account type is: ", account ["account_type"])
 
-person_age = person.pop ("age")
-print("The person's age was ", person_age)
-print("The remaining fields are :", person)
+# change one field
+account["balance"] = "3000"
+
+# remove one field
+
+remove_type = account.pop ("account_type")
+print("The account type was: ", remove_type)
+
+# display every remaining field
+for field, value in account.items():
+    print(field, ":", value)
+
+
