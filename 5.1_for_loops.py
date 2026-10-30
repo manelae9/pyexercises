@@ -38,3 +38,8 @@ print("List of names and their lenghts: ")
 for name in names:
     length = len(name)
     print(f"Name: {name}, Length: {length}")
+
+
+for i in names:
+    length = len(i)
+    print("Name: ", i, "Length: ", length)

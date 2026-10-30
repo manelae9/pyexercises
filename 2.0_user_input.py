@@ -26,16 +26,23 @@ DELIVERABLE
     This file, with your comments and your code.
 """
 
-# 1. In: my nationality and my MSc 
-# 2. Process: printing first the nationality, then the MSc and finally my nationality and my msc
-# 3. Out: printing my nationality and my Msc
-# 4. My two fields, and what I would do with them: nationality and field of MSc, just printed in a sentence
+# 1. In: the user's university and years of study
+# 2. Process: asking the user for two pieces of information and printing a sentence which combine them
+# 3. Out: a sentence displaying the user's university and years of study
+# 4. My two fields, and what I would do with them: university and years of study, i would use these informations to assess a candidate's academic background
 
 
 # Your code below
-nationality = input ("Where are you from : ")
-field = input ("What's your MSc : ")
-print ("I'm from", nationality)
-print ("Im pursuing an MSc in", field)
-print ("I'm from " + nationality + " and I'm pursuing an MSc in " + field )
+university = input ("Which university do you attend ? ")
+years = input ("How many years have you studied ? ")
+print ("My university is", university)
 
+if years == "1" :
+    print("I have studied for " + years + " year.")
+else:
+    print("I have studied for " + years + " years.")
+
+if years == "1" :
+    print("I study at " + university + " and I have completed " + years + " year of study.")
+else:
+    print("I study at " + university + " and I have completed " + years + " years of study.")
