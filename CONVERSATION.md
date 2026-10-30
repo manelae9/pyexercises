@@ -255,3 +255,25 @@ for idx, value in enumerate(items):
 ```
 
 What does `enumerate` return for each iteration?
+
+---
+## 2026-10-30 11:49, in .
+
+**Me:** how to use elif in python
+
+**Tutor:**
+
+The concept is **chaining conditions with elif**.
+
+```python
+# TODO: decide which block runs
+value = 3
+
+if value < 0:
+    print("Negative")
+# TODO: add an elif here that prints "Zero" when value == 0
+elif value > 0:
+    print("Positive")
+```
+
+Which built-in function checks if two values are equal?
