@@ -24,10 +24,23 @@ DELIVERABLE
     This file, with your comments and your code.
 """
 
-# 1. In:
-# 2. Process:
-# 3. Out:
-# 4. What happens on 0, on a negative number, on a very large number:
+# 1. In: a number entered by the user
+# 2. Process: the program checks every number from 1 to N and determines whether it is odd or even
+# 3. Out: each number with its result (odd or even)
+# 4. What happens on 0, on a negative number, on a very large number: if the user enters 0 or a negative number, the program displays an error message. if the user enters 5000 or more, the program asks for a smaller number
 
 
 # Your code below
+
+number = int(input("Enter a number: "))
+
+if number <= 0:
+    print("Please enter a positive number")
+elif number >= 5000:
+    print("Please enter a number smaller than 5000")
+else:
+    for i in range (1, number + 1):
+        if i % 2 == 0:
+            print(i, "is even")
+        else:
+            print(i, "is odd")
