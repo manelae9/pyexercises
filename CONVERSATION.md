@@ -236,3 +236,22 @@ price = my_dict["product"]
 ```
 
 What function do you use to add or update a key-value pair in a dictionary?
+
+---
+## 2026-10-30 11:43, in .
+
+**Me:** how to use enumerate in Python for a loop
+
+**Tutor:**
+
+Enumerate gives you both the index and the value while looping.
+
+```python
+items = ['apple', 'banana', 'cherry']
+
+for idx, value in enumerate(items):
+    # TODO: print the index and the value
+    # TODO: multiply the index by 2 and print the result
+```
+
+What does `enumerate` return for each iteration?

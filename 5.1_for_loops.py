@@ -24,22 +24,18 @@ DELIVERABLE
     This file, with your comments and your code.
 """
 
-# 1. In:
-# 2. Process:
-# 3. Out:
-# 4. What I compute for each item, and why it is worth showing:
+# 1. In: a list of monthly marketing campaign budgets in euros
+# 2. Process: the program calculates the total budget, then calculates the percentage represented by each campaign
+# 3. Out: one line for each campaign, showing its budget, position and percentage of the total
+# 4. What I compute for each item, and why it is worth showing: I calculate the percentage of the total budget for each campaign, this helps compare the importance of each campaign's budget
 
 
 # Your code below
-names = ["Manel", "Laura", "Dounia", "Angélique", "Sara"]
-
-print("List of names and their lenghts: ")
-
-for name in names:
-    length = len(name)
-    print(f"Name: {name}, Length: {length}")
+budgets = [1200, 800, 1500, 1080, 2000, 720, 1300, 1500, 2740]
 
 
-for i in names:
-    length = len(i)
-    print("Name: ", i, "Length: ", length)
+total = sum(budgets)
+
+for position, budget in enumerate(budgets, start=1):
+    percentage = (budget / total) * 100
+    print(f"Campaign {position}: Budget = {budget} euros, Share = {percentage:.2f}%")
