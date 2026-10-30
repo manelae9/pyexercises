@@ -24,10 +24,28 @@ DELIVERABLE
     This file, with your comments and your code.
 """
 
-# 1. In:
-# 2. Process:
-# 3. Out:
-# 4. My four transformations, and when each is useful:
+# 1. In: a sentence entered by the user
+# 2. Process: the program applies four different text transformations to the sentence
+# 3. Out: four transformed version of the original sentence
+# 4. My four transformations, and when each is useful: upper (all letters are converted to uppercase), lower (all letters are converted to lowercase), strip (spaces at the beginning and end are removed), title (the first letter of each word is capitalized)
 
 
 # Your code below
+
+sentence = input("Enter a sentence: ")
+
+# upper
+
+print("Uppercase: ", sentence.upper())
+
+# lower
+
+print("Lowercase: ", sentence.lower())
+
+#strip
+
+print("Without extra spaces: ", sentence.strip())
+
+#title
+
+print("Title case: ", sentence.title())
