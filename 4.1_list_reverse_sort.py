@@ -25,7 +25,7 @@ DELIVERABLE
     This file, with your comments and your code.
 """
 
-# 1. In: a list of monthly marketing campaign budgets in euros
+# 1. In: a list of monthly marketing campaign budgets in euro
 # 2. Process: he program displays the budgets in four different orders
 # 3. Out: the budgets in different orders and the original list at the end
 # 4. My four orders, and which ones modify the original: I choose the original order, ascending order, descending order and random order
