@@ -24,36 +24,38 @@ DELIVERABLE
     This file, with your comments and your code.
 """
 
-# 1. In: 
-# 2. Process:
-# 3. Out:
-# 4. What happens when the second number is zero, and why:
+# 1. In: two numbers entered by the user
+# 2. Process: thr program calculates the addition, substraction, multiplication and division of the two numbers
+# 3. Out:the results of the four mathematical operations
+# 4. What happens when the second number is zero, and why: the program displays a message instead of performing the division because division by zero is mathematically impossible
 
 
 # Your code below
 number_1 = int(input ("Choose a number : "))
-number_2 = int(input ("Choose a number : "))
+number_2 = int(input ("Choose a second number : "))
 
 print ("The number 1 is : ", number_1)
 print ("The number 2 is : ", number_2)
 
-#addition of two numbers 
+#Addition 
 sum = number_1 + number_2
-print ("The sum of two numbers is: ", sum)
+print ("The sum of the two numbers is: ", sum)
 
-#difference of two numbers
+#Substraction
 dif = number_1 - number_2
-print ("The difference of two numbers is: ", dif)
+print ("The difference between the two numbers is: ", dif)
 
-#product of two numbers
+#Product
 prod = number_1 * number_2
-print ("The product of two numbers is: ", prod)
+print ("The product of the two numbers is: ", prod)
 
-#division of two numbers
+#Division
 if number_2 != 0 : 
     div = number_1 / number_2
-    print ("The division between two numbers is ", div)
+    print ("The division result is ", div)
 
 else :
-    print ("The second number is ", 0)
+    print ("Division by zero is not possible")
 
+print(7/2)
+print(7//2)

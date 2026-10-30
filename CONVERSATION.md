@@ -177,3 +177,21 @@ print(upper_text)
 ```
 
 What is the name of the method that converts a string to uppercase?
+
+---
+## 2026-10-30 10:17, in .
+
+**Me:** What is the difference between / and // in Python
+
+**Tutor:**
+
+Division vs floor division.
+The single slash `/` gives the usual decimal result, while the double slash `//` gives the integer part of the quotient, discarding any remainder.
+
+```python
+# TODO: try these two lines in the console
+print(7 / 2)   # what will this print?
+print(7 // 2)  # what will this print?
+```
+
+Which built-in function returns the integer part of a division?
