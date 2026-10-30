@@ -28,10 +28,10 @@ DELIVERABLE
     This file, with your comments and your code.
 """
 
-# 1. In:
-# 2. Process:
-# 3. Out:
-# 4. My stop condition, my attempt limit, my summary:
+# 1. In: answers entered by the user (yes or no)
+# 2. Process:the program asks the user whether they want to continue, until they answer no or reach the maximum number of attempts
+# 3. Out: a summary showing the number of attempts and whether the user chose to stop
+# 4. My stop condition, my attempt limit, my summary: the program stops when the user answers no, the maximum number of attempts is 5, the summary contains the number of attempts and the final result
 
 
 # Your code below

@@ -277,3 +277,20 @@ elif value > 0:
 ```
 
 Which built-in function checks if two values are equal?
+
+---
+## 2026-10-30 12:23, in .
+
+**Me:** explain how to use reverse= in python
+
+**Tutor:**
+
+Sorting a sequence in reverse order.
+
+```python
+# Sort a list from largest to smallest
+numbers = [3, 1, 4, 1, 5]
+numbers.sort(reverse=True)  # TODO: what does True mean here?
+```
+
+What parameter must be passed to `sort` to get descending order?

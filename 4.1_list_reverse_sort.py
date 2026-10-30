@@ -25,10 +25,32 @@ DELIVERABLE
     This file, with your comments and your code.
 """
 
-# 1. In:
-# 2. Process:
-# 3. Out:
-# 4. My four orders, and which ones modify the original:
+# 1. In: a list of monthly marketing campaign budgets in euros
+# 2. Process: he program displays the budgets in four different orders
+# 3. Out: the budgets in different orders and the original list at the end
+# 4. My four orders, and which ones modify the original: I choose the original order, ascending order, descending order and random order
 
 
 # Your code below
+
+import random
+
+budgets = [1200, 800, 1500, 1080, 2000, 720, 1300, 1500, 2740]
+
+# Original order
+print("Original order: ", budgets)
+
+# Ascending order
+ascending = sorted(budgets)
+print("Ascending order: ", ascending)
+
+# Descending order 
+descending = sorted(budgets, reverse=True)
+print("Descending order: ", descending)
+
+# Random order
+random_order = random.sample(budgets, len(budgets))
+print("Random order: ", random_order)
+
+# Display the original list to check it has not changed
+print("original list at the end: ", budgets)
